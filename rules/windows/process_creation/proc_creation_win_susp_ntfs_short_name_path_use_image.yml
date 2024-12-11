@@ -3,17 +3,17 @@ id: a96970af-f126-420d-90e1-d37bf25e50e1
 related:
     - id: 349d891d-fef0-4fe4-bc53-eee623a15969
       type: similar
-status: experimental
+status: test
 description: Detect use of the Windows 8.3 short name. Which could be used as a method to avoid Image detection
 references:
     - https://www.acunetix.com/blog/articles/windows-short-8-3-filenames-web-security-problem/
-    - https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc959352(v=technet.10)?redirectedfrom=MSDN
+    - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc959352(v=technet.10)
     - https://twitter.com/frack113/status/1555830623633375232
 author: frack113, Nasreddine Bencherchali
-date: 2022/08/07
-modified: 2023/03/21
+date: 2022-08-07
+modified: 2023-03-21
 tags:
-    - attack.defense_evasion
+    - attack.defense-evasion
     - attack.t1564.004
 logsource:
     category: process_creation

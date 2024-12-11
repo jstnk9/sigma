@@ -4,12 +4,12 @@ status: test
 description: Detects the pattern of UAC Bypass using ICMLuaUtil Elevated COM interface
 references:
     - https://www.elastic.co/guide/en/security/current/uac-bypass-via-icmluautil-elevated-com-interface.html
-author: Florian Roth (Nextron Systems)
-date: 2022/09/13
-modified: 2022/09/27
+author: Florian Roth (Nextron Systems), Elastic (idea)
+date: 2022-09-13
+modified: 2022-09-27
 tags:
-    - attack.defense_evasion
-    - attack.privilege_escalation
+    - attack.defense-evasion
+    - attack.privilege-escalation
     - attack.t1548.002
 logsource:
     category: process_creation

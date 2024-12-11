@@ -1,15 +1,15 @@
 title: ClickOnce Deployment Execution - Dfsvc.EXE Child Process
 id: 241d52b5-eee0-49d0-ac8a-8b9c15c7221c
-status: experimental
+status: test
 description: Detects child processes of "dfsvc" which indicates a ClickOnce deployment execution.
 references:
     - https://posts.specterops.io/less-smartscreen-more-caffeine-ab-using-clickonce-for-trusted-code-execution-1446ea8051c5
 author: Nasreddine Bencherchali (Nextron Systems)
-date: 2023/06/12
+date: 2023-06-12
 tags:
     - attack.execution
-    - attack.defense_evasion
-    - detection.threat_hunting
+    - attack.defense-evasion
+    - detection.threat-hunting
 logsource:
     category: process_creation
     product: windows

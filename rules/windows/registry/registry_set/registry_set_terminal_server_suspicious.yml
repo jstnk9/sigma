@@ -8,7 +8,7 @@ description: |
     Detects tampering of RDP Terminal Service/Server sensitive settings.
     Such as allowing unauthorized users access to a system via the 'fAllowUnsolicited' or enabling RDP via 'fDenyTSConnections', etc.
 references:
-    - https://blog.menasec.net/2019/02/threat-hunting-rdp-hijacking-via.html # Related to RDP hijacking via the "ServiceDll" key
+    - https://web.archive.org/web/20200929062532/https://blog.menasec.net/2019/02/threat-hunting-rdp-hijacking-via.html # Related to RDP hijacking via the "ServiceDll" key
     - http://woshub.com/rds-shadow-how-to-connect-to-a-user-session-in-windows-server-2012-r2/ # Related to the Shadow RPD technique
     - https://twitter.com/SagieSec/status/1469001618863624194?t=HRf0eA0W1YYzkTSHb-Ky1A&s=03 # Related to the Shadow RPD technique
     - https://threathunterplaybook.com/hunts/windows/190407-RegModEnableRDPConnections/notebook.html
@@ -16,10 +16,10 @@ references:
     - http://etutorials.org/Microsoft+Products/microsoft+windows+server+2003+terminal+services/Chapter+6+Registry/Registry+Keys+for+Terminal+Services/ # Contain description for most of the keys mentioned here (check it out if you want more information
     - https://admx.help/HKLM/SOFTWARE/Policies/Microsoft/Windows%20NT/Terminal%20Services # Contain description for most of the keys mentioned here (check it out if you want more information)
 author: Samir Bousseaden, David ANDRE, Roberto Rodriguez @Cyb3rWard0g, Nasreddine Bencherchali
-date: 2022/09/29
-modified: 2022/11/26
+date: 2022-09-29
+modified: 2022-11-26
 tags:
-    - attack.defense_evasion
+    - attack.defense-evasion
     - attack.persistence
     - attack.t1112
 logsource:

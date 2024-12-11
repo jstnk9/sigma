@@ -7,9 +7,10 @@ references:
     - https://4sysops.com/archives/creating-a-complete-memory-dump-without-a-blue-screen/
     - https://kb.acronis.com/content/60892
 author: Nasreddine Bencherchali (Nextron Systems)
-date: 2023/05/16
+date: 2023-05-16
+modified: 2024-03-13
 tags:
-    - attack.defense_evasion
+    - attack.defense-evasion
 logsource:
     category: process_creation
     product: windows
@@ -20,9 +21,7 @@ detection:
               - '\livekd64.exe'
         - OriginalFileName: 'livekd.exe'
     selection_cli:
-        CommandLine|contains|all:
-            - ' /m'
-            - ' -m'
+        CommandLine|contains|windash: ' -m'
     condition: all of selection_*
 falsepositives:
     - Unlikely in production environment

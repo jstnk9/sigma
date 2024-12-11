@@ -1,12 +1,12 @@
 title: Potential Xterm Reverse Shell
 id: 4e25af4b-246d-44ea-8563-e42aacab006b
-status: experimental
+status: test
 description: Detects usage of "xterm" as a potential reverse shell tunnel
 references:
     - https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
     - https://www.revshells.com/
 author: '@d4ns4n_'
-date: 2023/04/24
+date: 2023-04-24
 tags:
     - attack.execution
     - attack.t1059

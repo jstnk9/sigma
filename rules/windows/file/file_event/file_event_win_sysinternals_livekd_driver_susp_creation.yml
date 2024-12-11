@@ -3,15 +3,15 @@ id: 059c5af9-5131-4d8d-92b2-de4ad6146712
 related:
     - id: 16fe46bb-4f64-46aa-817d-ff7bec4a2352
       type: similar
-status: experimental
+status: test
 description: Detects the creation of the LiveKD driver by a process image other than "livekd.exe".
 references:
     - Internal Research
 author: Nasreddine Bencherchali (Nextron Systems)
-date: 2023/05/16
+date: 2023-05-16
 tags:
-    - attack.defense_evasion
-    - attack.privilege_escalation
+    - attack.defense-evasion
+    - attack.privilege-escalation
 logsource:
     product: windows
     category: file_event

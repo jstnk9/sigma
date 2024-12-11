@@ -1,13 +1,13 @@
 title: Suspicious Invoke-WebRequest Execution With DirectIP
 id: 1edff897-9146-48d2-9066-52e8d8f80a2f
-status: experimental
+status: test
 description: Detects calls to PowerShell with Invoke-WebRequest cmdlet using direct IP access
 references:
     - https://www.huntress.com/blog/critical-vulnerabilities-in-papercut-print-management-software
 author: Nasreddine Bencherchali (Nextron Systems)
-date: 2023/04/21
+date: 2023-04-21
 tags:
-    - attack.command_and_control
+    - attack.command-and-control
     - attack.t1105
 logsource:
     category: process_creation

@@ -1,16 +1,16 @@
 title: Potential RoboForm.DLL Sideloading
 id: f64c9b2d-b0ad-481d-9d03-7fc75020892a
-status: experimental
+status: test
 description: Detects potential DLL sideloading of "roboform.dll", a DLL used by RoboForm Password Manager
 references:
     - https://twitter.com/StopMalvertisin/status/1648604148848549888
     - https://twitter.com/t3ft3lb/status/1656194831830401024
     - https://www.roboform.com/
 author: X__Junior (Nextron Systems), Nasreddine Bencherchali (Nextron Systems)
-date: 2023/05/14
+date: 2023-05-14
 tags:
-    - attack.defense_evasion
-    - attack.privilege_escalation
+    - attack.defense-evasion
+    - attack.privilege-escalation
     - attack.t1574.001
     - attack.t1574.002
 logsource:

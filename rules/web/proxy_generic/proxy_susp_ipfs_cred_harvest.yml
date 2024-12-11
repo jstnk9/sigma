@@ -1,15 +1,15 @@
 title: Suspicious Network Communication With IPFS
 id: eb6c2004-1cef-427f-8885-9042974e5eb6
-status: experimental
+status: test
 description: Detects connections to interplanetary file system (IPFS) containing a user's email address which mirrors behaviours observed in recent phishing campaigns leveraging IPFS to host credential harvesting webpages.
 references:
     - https://blog.talosintelligence.com/ipfs-abuse/
     - https://github.com/Cisco-Talos/IOCs/tree/80caca039988252fbb3f27a2e89c2f2917f582e0/2022/11
     - https://isc.sans.edu/diary/IPFS%20phishing%20and%20the%20need%20for%20correctly%20set%20HTTP%20security%20headers/29638
 author: Gavin Knapp
-date: 2023/03/16
+date: 2023-03-16
 tags:
-    - attack.credential_access
+    - attack.credential-access
     - attack.t1056
 logsource:
     category: proxy

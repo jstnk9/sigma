@@ -1,6 +1,6 @@
 title: Linux Package Uninstall
 id: 95d61234-7f56-465c-6f2d-b562c6fedbc4
-status: experimental
+status: test
 description: Detects linux package removal using builtin tools such as "yum", "apt", "apt-get" or "dpkg".
 references:
     - https://sysdig.com/blog/mitre-defense-evasion-falco
@@ -8,9 +8,9 @@ references:
     - https://linuxhint.com/uninstall_yum_package/
     - https://linuxhint.com/uninstall-debian-packages/
 author: Tuan Le (NCSGroup), Nasreddine Bencherchali (Nextron Systems)
-date: 2023/03/09
+date: 2023-03-09
 tags:
-    - attack.defense_evasion
+    - attack.defense-evasion
     - attack.t1070
 logsource:
     product: linux
